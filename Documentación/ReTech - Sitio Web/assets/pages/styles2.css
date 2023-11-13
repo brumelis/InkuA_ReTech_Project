@@ -26,7 +26,7 @@
 
 main{
     min-height: 84vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ main{
 .header {
     background-color: var(--color-secundario); 
     height: 8vh; 
-    width: 100vw;
+    width: 100%;
     font-size: 1rem;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@ main{
 body {
     background-color: var(--color-principal);
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .menu{
@@ -178,7 +178,7 @@ div.datos-faq{
 
 div.faq p {
     font-size: 0.8rem;
-    width: 80vw;
+    width: 80%;
     background-color: var(--color-boton);
     border-radius: 2rem;
     text-align: center;
