@@ -23,6 +23,11 @@
 }
 
 /* HEADER */
+body {
+    background-color: var(--color-principal);
+    min-height: 100vh;
+    width: 100%;
+}
 
 main{
     min-height: 84vh;
@@ -36,35 +41,28 @@ main{
     background-color: var(--color-secundario); 
     height: 8vh; 
     width: 100%;
-    font-size: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-body {
-    background-color: var(--color-principal);
-    min-height: 100vh;
-    width: 100%;
-}
-
 .menu{
-    width: 70vw;
-    margin: 1rem;
+    width: 80vw;
     display: flex;
     justify-content: space-between;
 }
 
 .header>img {
-    height: 3rem;
+    height: 2.5rem;
     margin: 1rem;
 }
 
 .header a {
-    margin: 1rem;
+    font-size: 0.9rem;
+    margin: 0.8rem;
     padding: 5px;
-    
+    border: 3px solid var(--color-secundario);
 }
 
 a:hover {
@@ -84,7 +82,6 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* background-color: yellow; */
 }
 
 .foto-banner{
@@ -349,7 +346,8 @@ footer{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        height: 35vh;
+        height: 50vh;
+        font-size: 0.7rem;
     }
 
     .banner>h2{
@@ -360,6 +358,11 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .header a {
+        margin: 5px;
+        padding: 5px;
     }
 
     /* INDEX */
@@ -496,11 +499,8 @@ footer{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        height: 25vh;
-    }
-
-    .banner>h2{
-        font-size: 1.5rem;
+        height: 50vh;
+        font-size: 0.7rem;
     }
 
     .menu{
@@ -508,10 +508,9 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
-    main{
-        min-height: 84vh;
-
+    
+    .banner>h2{
+        font-size: 1.5rem;
     }
 
     div.productos{
