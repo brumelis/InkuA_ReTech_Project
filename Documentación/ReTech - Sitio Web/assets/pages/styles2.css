@@ -6,10 +6,10 @@
     
     /* CSS HEX */
     --color-principal2: #A3B18A;
-    --color-principal: #A3B18A;
+    --color-principal: #f0f0f0;
     --color-secundario2: #588157;  
-    --color-secundario: #588157;
-    --color-boton: #588157;
+    --color-secundario: #B2C22C;
+    --color-boton: #B2C22C;
 
     font-family: 'Cutive Mono', monospace;
 }
@@ -35,9 +35,10 @@ main{
 .header {
     background-color: var(--color-secundario); 
     height: 8vh; 
-    width: 100%;
+    width: 100vw;
     font-size: 1rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -45,7 +46,7 @@ main{
 body {
     background-color: var(--color-principal);
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .menu{
@@ -60,9 +61,17 @@ body {
     margin: 1rem;
 }
 
+.header a {
+    margin: 1rem;
+    padding: 5px;
+    
+}
+
 a:hover {
-    background-color: var(--color-boton);
+    border-radius: 1rem;
+    background-color: var(--color-secundario2);
     border: 3px solid var(--color-secundario2);
+    color: var(--color-principal);
 }
 
 
@@ -174,6 +183,7 @@ div.faq p {
     border-radius: 2rem;
     text-align: center;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 
