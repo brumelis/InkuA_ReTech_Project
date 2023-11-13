@@ -10,7 +10,7 @@
     --color-secundario2: #588157;  
     --color-secundario: #B2C22C;
     --color-boton: #B2C22C;
-
+    
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,6 +29,139 @@ body {
     width: 100%;
 }
 
+/* .............................NAVBAR DESPLEGABLE.................. */
+.header>img {
+    height: 2.5rem;
+    margin: 1rem;
+}
+.header {
+    background-color: var(--color-secundario); 
+    height: 10vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barra>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header a, h5 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacion {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submenu a {
+    padding: 8px;
+    display: block;
+    text-align: center;
+}
+
+.enlace {
+    overflow: hidden;
+}
+.enlace:target .submenu {
+    position: absolute;
+    height: 350px;
+    max-height: 350px;
+    width: auto;
+    top: 3rem;
+}
+
+@media (min-width:768px ) {
+    .header h5 {
+        display: none;
+    }
+    .navegacion {
+        margin: 0 auto;
+        max-width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .navegacion a {
+        padding: 8px;
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .enlace {
+        flex: 1;
+        position: relative;
+        overflow: visible;
+    }
+    .enlace .submenu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .submenu a:hover {
+        background-color: rgb(58,58,57);
+        border-radius: 1rem;
+        color: var(--color-principal);
+    }
+    .barra{
+        height: 35px;
+    }
+}
+
+.submenu {
+    background-color: #4C4A48;
+    max-height: 0;
+    transition: .8s;
+}
+
+.submenu a:hover {
+    background-color: rgb(58,58,57);
+    border-radius: 1rem;
+    border: 3px solid var(--color-boton);
+    color: var(--color-boton);
+}
+
+
+/* 
+.menu-responsive{
+    display: none;
+}
+
+
+.menu{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu a {
+    font-size: 0.9rem;
+    margin: 0.8rem;
+    padding: 5px;
+    border: 3px solid var(--color-secundario);
+}
+
+.menu a:hover {
+    border-radius: 1rem;
+    background-color: var(--color-secundario2);
+    border: 3px solid var(--color-secundario2);
+    color: var(--color-principal);
+} */
+
+
+
+/* .........................................MAIN................................. */
 main{
     min-height: 84vh;
     width: 100%;
@@ -37,40 +170,6 @@ main{
     align-items: center;
 }
 
-.header {
-    background-color: var(--color-secundario); 
-    height: 8vh; 
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu{
-    width: 80vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header>img {
-    height: 2.5rem;
-    margin: 1rem;
-}
-
-.header a {
-    font-size: 0.9rem;
-    margin: 0.8rem;
-    padding: 5px;
-    border: 3px solid var(--color-secundario);
-}
-
-a:hover {
-    border-radius: 1rem;
-    background-color: var(--color-secundario2);
-    border: 3px solid var(--color-secundario2);
-    color: var(--color-principal);
-}
 
 
 
@@ -349,29 +448,12 @@ footer{
 /* ............................MOBILE............................... */
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    
-    .header{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        height: 50vh;
-        font-size: 0.7rem;
+    .menu{
+        display: none;
     }
 
     .banner>h2{
         font-size: 1.5rem;
-    }
-
-    .menu{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header a {
-        margin: 5px;
-        padding: 5px;
     }
 
     /* INDEX */
@@ -502,22 +584,10 @@ footer{
 /* TABLET */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
-
-    .header{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        height: 50vh;
-        font-size: 0.7rem;
-    }
-
     .menu{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
-    
+
     .banner>h2{
         font-size: 1.5rem;
     }
@@ -591,3 +661,18 @@ footer{
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+/* .............................NAVBAR DESPLEGABLE.................. */
+/* .............................NAVBAR DESPLEGABLE.................. */
+/* .............................NAVBAR DESPLEGABLE.................. */
+/* .............................NAVBAR DESPLEGABLE.................. */
+/* .............................NAVBAR DESPLEGABLE.................. */
+/* .............................NAVBAR DESPLEGABLE.................. */
