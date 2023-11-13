@@ -157,6 +157,26 @@ div.productos1 img {
     border-radius: 2rem;
 }
 
+/* PREGUNTAS FRECUENTES FAQ */
+div.datos-faq{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.faq p {
+    font-size: 0.8rem;
+    width: 80vw;
+    background-color: var(--color-boton);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+
 /* INFORMACION CONTACT */
 div.datos{
     height: 70%;

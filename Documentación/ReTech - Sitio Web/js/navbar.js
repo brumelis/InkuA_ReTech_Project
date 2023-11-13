@@ -12,6 +12,7 @@ header.innerHTML = `
     <a href="./ubicaciones.html">Ubicaciones</a>
     <a href="./donaciones.html">Donaciones</a>
     <a href="./nosotros.html">Nosotros</a>
+    <a href="./faq.html">FAQ</a>
     <a href="./contacto.html">Contacto</a>
   
   </nav>
