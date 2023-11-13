@@ -11,7 +11,7 @@
     --color-secundario: #B2C22C;
     --color-boton: #B2C22C;
 
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -163,25 +163,6 @@ div.productos1 img {
     border-radius: 2rem;
 }
 
-/* PREGUNTAS FRECUENTES FAQ */
-div.datos-faq{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-div.faq p {
-    font-size: 0.8rem;
-    width: 80%;
-    background-color: var(--color-boton);
-    border-radius: 2rem;
-    text-align: center;
-    padding: 1rem;
-    margin-bottom: 2rem;
-}
 
 
 /* INFORMACION CONTACT */
@@ -200,7 +181,7 @@ div.productos4 img {
     width: 35rem;
     object-fit: cover;
     border-radius: 2rem;
-
+    
 }
 
 div.productos4 p {
@@ -264,7 +245,7 @@ table,tr,th,td {
     width: 90%;
     border-radius: 2rem;
     margin-bottom: 3rem;
-
+    
 }
 
 .cont-estrellas{
@@ -311,7 +292,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 90%;
-
+    
 }
 
 textarea{
@@ -319,10 +300,36 @@ textarea{
     height: 3rem;
 }
 
+/* PREGUNTAS FRECUENTES FAQ */
+div.datos-faq{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 80%;
+    background-color: var(--color-boton);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
 
 
 
-/* FOOTER */
+/*............................. FOOTER.............................. */
+/*............................. FOOTER.............................. */
+
 
 footer{
     background-color: var(--color-secundario);
@@ -337,7 +344,9 @@ footer{
 
 
 
-/* MOBILE */
+/* ............................MOBILE............................... */
+/* ............................MOBILE............................... */
+/* ............................MOBILE............................... */
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
     
