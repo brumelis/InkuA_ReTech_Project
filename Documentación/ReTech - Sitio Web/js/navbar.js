@@ -7,12 +7,12 @@ header.innerHTML = `
   
     <!-- MENU -->
     <a href="./index.html">Inicio</a>
-    <a href="./rating.html">Eventos</a>
-    <a href="./services.html">Tutoriales</a>
-    <a href="./services.html">Ubicaciones</a>
-    <a href="./hire.html">Donaciones</a>
-    <a href="./about.html">Nosotros</a>
-    <a href="./contact.html">Contacto</a>
+    <a href="./eventos.html">Eventos</a>
+    <a href="./tutoriales.html">Tutoriales</a>
+    <a href="./ubicaciones.html">Ubicaciones</a>
+    <a href="./donaciones.html">Donaciones</a>
+    <a href="./nosotros.html">Nosotros</a>
+    <a href="./contacto.html">Contacto</a>
   
   </nav>
   
