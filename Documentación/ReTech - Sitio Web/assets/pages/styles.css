@@ -22,7 +22,11 @@
     color: black;
 }
 
-/* HEADER */
+/* ......................................HEADER.............................. */
+/* ......................................HEADER.............................. */
+/* ......................................HEADER.............................. */
+/* ......................................HEADER.............................. */
+
 body {
     background-color: var(--color-principal);
     min-height: 100vh;
@@ -78,7 +82,7 @@ body {
     top: 3rem;
 }
 
-@media (min-width:768px ) {
+@media (min-width:769px ) {
     .header h5 {
         display: none;
     }
@@ -132,36 +136,12 @@ body {
 }
 
 
-/* 
-.menu-responsive{
-    display: none;
-}
-
-
-.menu{
-    width: 80vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.menu a {
-    font-size: 0.9rem;
-    margin: 0.8rem;
-    padding: 5px;
-    border: 3px solid var(--color-secundario);
-}
-
-.menu a:hover {
-    border-radius: 1rem;
-    background-color: var(--color-secundario2);
-    border: 3px solid var(--color-secundario2);
-    color: var(--color-principal);
-} */
-
-
 
 /* .........................................MAIN................................. */
+/* .........................................MAIN................................. */
+/* .........................................MAIN................................. */
+/* .........................................MAIN................................. */
+
 main{
     min-height: 84vh;
     width: 100%;
@@ -391,7 +371,6 @@ form{
     display: flex;
     flex-direction: column;
     width: 90%;
-    
 }
 
 textarea{
@@ -428,6 +407,8 @@ div.faq {
 
 /*............................. FOOTER.............................. */
 /*............................. FOOTER.............................. */
+/*............................. FOOTER.............................. */
+/*............................. FOOTER.............................. */
 
 
 footer{
@@ -448,10 +429,6 @@ footer{
 /* ............................MOBILE............................... */
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    .menu{
-        display: none;
-    }
-
     .banner>h2{
         font-size: 1.5rem;
     }
@@ -520,8 +497,6 @@ footer{
     }
 
 
-
-
     /* RATING */
 
     .sec-rating {
@@ -563,8 +538,8 @@ footer{
     /* TABLA */
     div.service{
         font-size: 0.7rem;
-        /* background-color: blue; */
     }
+
     /* HIRE */
     div.contratacion{
         display: flex;
@@ -574,20 +549,12 @@ footer{
     iframe{
         width: 100%;
     }
-
-
 }
-
-
 
 
 /* TABLET */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
-    .menu{
-        display: none;
-    }
-
     .banner>h2{
         font-size: 1.5rem;
     }
@@ -661,18 +628,3 @@ footer{
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-/* .............................NAVBAR DESPLEGABLE.................. */
-/* .............................NAVBAR DESPLEGABLE.................. */
-/* .............................NAVBAR DESPLEGABLE.................. */
-/* .............................NAVBAR DESPLEGABLE.................. */
-/* .............................NAVBAR DESPLEGABLE.................. */
-/* .............................NAVBAR DESPLEGABLE.................. */
