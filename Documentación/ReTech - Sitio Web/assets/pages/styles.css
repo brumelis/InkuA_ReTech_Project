@@ -203,7 +203,7 @@ div.productos img {
 }
 
 div.productos p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     height: 35rem;
     width: 30rem;
     background-color: #F0F0F0;
@@ -211,11 +211,11 @@ div.productos p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
 }
 
 .productos.producto-especial p {
-    font-size: 1.2rem; /* Tamaño de letra reducido para el producto especial */
+    font-size: 1.1rem; /* Tamaño de letra reducido para el producto especial */
     text-align: justify;;
 }
 
