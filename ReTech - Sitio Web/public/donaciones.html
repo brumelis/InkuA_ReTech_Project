@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="head"></head>
+<script src="./js/head.js"></script>
+
+<body>
+    <header id="header"></header>
+    <script src="./js/navbar.js"></script>
+
+    <main>
+
+        <!-- BANNER -->
+        <section class="banner">
+                <h2>HIRE</h2>
+                <h2>Fill out the form so we can attend your event</h2>
+        </section>
+
+        <div class="contratacion">
+            <!-- MAPA -->
+            <div class="mapas">
+                <h3>Our location</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48802.24873698982!2d-71.29962075000002!3d-40.13915295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110e743605d0c7%3A0x71c43ffb1c66bc3a!2sSan%20Martin%20de%20los%20Andes%2C%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1697748140723!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- FORMULARIO -->
+            <div class="formulario">
+                <form action="./show_data.html" method="get" target="_blank">
+                    <label for="name">First Name and Last Name</label>
+                    <input name="name" id="nombre" type="text" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input name="phone" id="telefono" type="number" required>
+
+                    <label for="service">Choose Service</label>
+                    <select name="service" id="servChoose" required>
+                        <option value="">-- Select an Option --</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Kids Birthday">Kids Birthday</option>
+                        <option value="Phothos Studio / Outside">Phothos Studio / Outside</option>
+                    </select>
+
+                    <label for="date">Choose Date
+                    </label>
+                    <input name="date" id="fecha" type="date" required>
+
+                    <label for="payment">Payment Method</label>
+                    <label for="cash">
+                        <input type="radio" name="payment" value="Cash">
+                        Cash
+                    </label>
+                    <label for="credit">
+                        <input type="radio" name="payment" value="Credit Card">
+                        Credit Card
+                    </label>
+                    <label for="debit">
+                        <input type="radio" name="payment" value="Debit Card">
+                        Debit Card
+                    </label>
+                    <textarea placeholder="messages"></textarea>
+                    <label for="terms">
+                        <input type="checkbox" name="terms" value="yes" required>
+                        I accept terms and conditions.
+                    </label>
+
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <nav class="footer">
+            <h4>Created by ReTech - Group 8</h4>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
