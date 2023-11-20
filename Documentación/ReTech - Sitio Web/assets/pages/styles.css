@@ -211,7 +211,7 @@ div.productos p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
 }
 
 .productos.producto-especial p {
@@ -419,15 +419,76 @@ div.faq {
 
 footer{
     background-color: var(--color-secundario);
-    height: 8vh;
+    height: 18vh;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+/* Estilos para el footer */
+
+.site-footer {
+    background-color: #A3B18A;
+    color: var(--color-principal);
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+    box-sizing: border-box; /* Se incluye el padding en el ancho total */
+ 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right, .footer-social {
+    flex: 1;
+    text-align: left;
+    margin: 10px;
+}
+
+/* Tamaño de la fuente para contenido del footer */
+.site-footer h3,
+.site-footer h4,
+.site-footer p,
+.footer-social a {
+    font-size: 0.9rem;
+}
+
+.footer-left h2 {
+    font-size: 1.2rem; /* Se ajusta el tamaño de la fuente original */
+}
+
+.footer-right h3, .footer-social h3 {
+    font-size: 1.1rem; /* Se ajusta aquí el tamaño de la fuente original */
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-social a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-social a:hover {
+    color: var(--color-boton);
+}
 
 
 /* ............................MOBILE............................... */
