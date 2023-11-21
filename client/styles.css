@@ -653,9 +653,9 @@ footer{
         flex-direction: column;
     }
 
-    /* RATING */
+     /* RATING */
 
-    .sec-rating {
+     .sec-rating {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -694,27 +694,31 @@ footer{
     iframe{
         width: 100%;
     }
-    /* Dentro del archivo ubicaciones */
+}
+/* Dentro del archivo ubicaciones */
 .contenido-texto {
     font-size: 0.9rem; /* Se ajusta el tamaño de letra */
     margin: 20px;
     text-align: justify;
     }
     
+
     .contenido-texto-uno {
         display: flex;
         
         }
+
        .pf-1{
         font-size: 0.9rem;
         margin-right: 40px;
         text-align: justify;
         margin-bottom: 20px;
        }
+
        .pf-2{
         font-size: 0.9rem;
         text-align: justify;
         margin-right: 35px;
         margin-bottom: 20px;
+
        }
-}
