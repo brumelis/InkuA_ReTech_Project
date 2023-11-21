@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Create link element for favicon
     const faviconLink = document.createElement("link");
     faviconLink.rel = "shortcut icon";
-    faviconLink.href = "./ReTech - Sitio Web/images-Sprint1/favicon.png";
+    faviconLink.href = "./ReTech - Sitio Web/assets/favicon.png";
     faviconLink.type = "image/x-icon";
 
     // Append the link elements to the head

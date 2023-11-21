@@ -13,11 +13,11 @@ mercadopago.configure({
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "./public/js")));
+app.use(express.static(path.join(__dirname, "../client")));
 app.use(cors());
 
 app.get("/", function (req, res) {
-  const filePath = path.resolve(__dirname,"public", "donaciones.html");
+  const filePath = path.resolve(__dirname, "donaciones.html");
   res.sendFile(filePath);
 });
 

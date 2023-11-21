@@ -1,45 +1,45 @@
 const productDescription = document.getElementById("product-description");
 
-const beer3Button = document.getElementById("donate-3");
-const beer5Button = document.getElementById("donate-5");
-const beer10Button = document.getElementById("donate-10");
+const donation3Button = document.getElementById("donate-3");
+const donation5Button = document.getElementById("donate-5");
+const donation10Button = document.getElementById("donate-10");
 
 const amountInput = document.getElementById("amount-input");
 const totalAmount = document.getElementById("total-amount");
 
-let beerCount = 0;
+let donationCount = 0;
 
-beer3Button.addEventListener("click", () => {
+donation3Button.addEventListener("click", () => {
   amountInput.value = 3;
-  beerCount = 3;
+  donationCount = 3;
   updateTotalAmount();
 });
 
-beer5Button.addEventListener("click", () => {
+donation5Button.addEventListener("click", () => {
   amountInput.value = 5;
-  beerCount = 5;
+  donationCount = 5;
   updateTotalAmount();
 });
 
-beer10Button.addEventListener("click", () => {
+donation10Button.addEventListener("click", () => {
   amountInput.value = 10;
-  beerCount = 10;
+  donationCount = 10;
   updateTotalAmount();
 });
 
 amountInput.addEventListener("input", () => {
-  beerCount = amountInput.value;
+  donationCount = amountInput.value;
   updateTotalAmount();
 });
 
 const updateTotalAmount = () => {
-  const updatedAmount = beerCount * 1;
+  const updatedAmount = donationCount * 1;
   totalAmount.innerText = updatedAmount;
 };
 
 
 const mercadopago = new MercadoPago("TEST-201e9abd-3bb7-46a6-a36b-65d2a5689677", {
-  locale: "es-AR", // The most common are: 'pt-BR', 'es-AR' and 'en-US'
+  locale: "es-AR",
 });
 
 document.getElementById("checkout-btn").addEventListener("click", function () {
@@ -68,14 +68,14 @@ document.getElementById("checkout-btn").addEventListener("click", function () {
 });
 
 function createCheckoutButton(preferenceId) {
-  // Initialize the checkout
+ 
   const bricksBuilder = mercadopago.bricks();
 
   const renderComponent = async (bricksBuilder) => {
     if (window.checkoutButton) window.checkoutButton.unmount();
     await bricksBuilder.create(
       "wallet",
-      "button-checkout", // class/id where the payment button will be displayed
+      "button-checkout", 
       {
         initialization: {
           preferenceId: preferenceId,
