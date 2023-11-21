@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <style>
+        .nosotros {
+            text-align: justify;
+            line-height: 2em;
+        }
+    </style>
+    <script src="./js/head.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/newsApi.js"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <script src="./js/navbar.js"></script>
+    <main>
+        <section class="container my-5">
+            <div class="row container-noticias">
+                <!-- Cards se generarán dinámicamente aquí -->
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h2>ReTech - Group 8</h2>
+                <p>&copy; 2023. Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-right">
+                <h3>Contacto</h3>
+                <p>Email: info@retech.com</p>
+                <p>Teléfono: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/inkua.es?locale=es_LA" target="none"><img
+                                src="./images-Sprint1/facebook.png" style="width: 25px; height: 25px;" alt="facebook"></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/inkua.global/" target="_blank"><img
+                                src="./images-Sprint1/Instagram.png" style="width: 25px; height: 25px;" alt="instagram"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/company/inkua/" target="_blank"><img
+                                src="./images-Sprint1/linkedin.jpg" style="width: 25px; height: 25px;" alt="linkedIn"></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Llamada inicial al cargar la página
+        noticias.fetchNoticias("arte"); // Cambia "arte" según la categoría que desees
+    </script>
+
+    <script>
+        function updateCard(cardNumber, eventData) {
+            const card = document.createElement("div");
+            card.className = "col-md-4";
+
+            const cardInner = document.createElement("div");
+            cardInner.className = "card";
+
+            const img = document.createElement("img");
+            img.className = "card-img-top";
+            img.src = eventData.urlToImage || 'https://picsum.photos/seed/picsum/500/300';
+            img.alt = "Card Image";
+
+            const cardBody = document.createElement("div");
+            cardBody.className = "card-body";
+
+            const title = document.createElement("h5");
+            title.className = "card-title";
+            title.textContent = eventData.title || 'Título no disponible';
+
+            const description = document.createElement("p");
+            description.className = "card-text";
+            description.textContent = eventData.description || 'Descripción no disponible';
+
+            const link = document.createElement("a");
+            link.className = "btn btn-primary d-block mx-auto";
+            link.href = eventData.url || '#';
+            link.textContent = "Leer Más";
+
+            // Constructing the card structure
+            cardBody.appendChild(img); // Asegura que la imagen esté dentro del card-body
+            cardBody.appendChild(title);
+            cardBody.appendChild(description);
+            cardBody.appendChild(link);
+
+            cardInner.appendChild(cardBody);
+
+            card.appendChild(cardInner);
+
+            // Add the constructed card to the container-noticias
+            document.querySelector(".container-noticias").appendChild(card);
+        }
+    </script>
+</body>
+
+</html>
+
