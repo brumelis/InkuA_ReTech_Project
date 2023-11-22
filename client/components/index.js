@@ -1,31 +1,7 @@
-const productDescription = document.getElementById("product-description");
-
-const donation3Button = document.getElementById("donate-3");
-const donation5Button = document.getElementById("donate-5");
-const donation10Button = document.getElementById("donate-10");
-
 const amountInput = document.getElementById("amount-input");
 const totalAmount = document.getElementById("total-amount");
 
 let donationCount = 0;
-
-donation3Button.addEventListener("click", () => {
-  amountInput.value = 3;
-  donationCount = 3;
-  updateTotalAmount();
-});
-
-donation5Button.addEventListener("click", () => {
-  amountInput.value = 5;
-  donationCount = 5;
-  updateTotalAmount();
-});
-
-donation10Button.addEventListener("click", () => {
-  amountInput.value = 10;
-  donationCount = 10;
-  updateTotalAmount();
-});
 
 amountInput.addEventListener("input", () => {
   donationCount = amountInput.value;

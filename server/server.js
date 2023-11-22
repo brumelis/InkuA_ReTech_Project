@@ -5,7 +5,6 @@ const path = require("path");
 
 const mercadopago = require("mercadopago");
 
-// REPLACE WITH YOUR ACCESS TOKEN AVAILABLE IN: https://developers.mercadopago.com/panel
 mercadopago.configure({
   access_token: "TEST-1899144099901066-102415-1a8e1cd80b2fea40df04fcafbc7b94b0-697518898",
 });
