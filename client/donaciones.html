@@ -18,7 +18,7 @@
 
   <main>
     <h1 class="text-center mt-5">DONACIONES</h1>
-    <div class="container mt-5 square-box ">
+    <div class="container square-box ">
       <div class="row ">
         <div class="col-12 col-md-6 ">
 
@@ -39,8 +39,10 @@
           </div>
 
           <div class="d-flex justify-content-center align-items-center mb-5">
-            <input class="" type="number" id="amount-input" min="0" />
 
+            <span class="input-group-text mx-1">$</span>
+            <input type="text" id="amount-input" min="0" class="" style="border-radius: 5px; background-color:#e6edff; height: 45px; border:none; padding-left: 10px;"/>
+          
             <p><span id="total-amount" style="display: none;"></span></p>
 
             <h3><span id="quantity" style="display: none;">1</span></h3>
