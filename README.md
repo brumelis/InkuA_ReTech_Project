@@ -13,7 +13,7 @@ Las características clave del proyecto son las siguientes:
 
 🚻 Exposiciones y Mercados de Arte: Se organizarán eventos para mostrar las creaciones de los jóvenes a la comunidad local. Esto no solo les otorga una plataforma para mostrar su trabajo, sino que también ayuda a sensibilizar sobre el problema de la basura electrónica y promueve el consumo sostenible.
 
-🛒Venta de Productos: Se podrán vender las creaciones de los jóvenes en mercados de arte o en línea, y los ingresos generados podrían reinvertirse en el proyecto para financiar más talleres y programas de educación en informática.
+🛒Venta de Productos: Se podrán vender las creaciones de los jóvenes en mercados de arte o en línea, y los ingresos generados podrían reinvertirse en el proyecto para financiar más talleres y programas de educación en tecnología.
 
 
 
