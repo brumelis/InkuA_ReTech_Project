@@ -826,3 +826,113 @@ footer{
 .flex-container-con {
     display: flex;
 }
+
+/* .........................................Nosotros................................. */
+
+/*Galeria de Imagenes*/
+
+.contenedor {
+    padding: 30px 20px;
+    width: 87%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /* Imagenes del Porfolio*/
+#portafolio img { 
+    width: 100%;
+    height: 100%; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #img-activa {
+    width: 100%;
+    height: auto;
+  }
+  
+  /*Contenedor Principal del Lightbox*/
+  
+  #contenedor-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*Contenedor interno del Lightbox*/
+  
+  #contenedor-interno {
+    border: 2px #f3f3f3 solid;
+    padding: 2px;
+    background: #3f3f3f;
+    max-width: 500px;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+/* Galeria */
+
+#portafolio{ 
+    background: rgba(204, 204, 204, 0.918);
+  }
+  
+  .galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  }
+  
+  .imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /*Botones*/
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #f3f3f3;
+  }
+  
+  #btn-cierra {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 3rem;
+  }
+  
+  #btn-retrocede {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 3rem;
+  }
+  
+  #btn-adelanta {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 3rem;
+  }
