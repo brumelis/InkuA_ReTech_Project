@@ -1,7 +1,17 @@
 <h1 align="center"> InkuA_ReTech_Project </h1>
 
+## 💻 Introducción
+
+En este repositorio, se presenta el proyecto "ReTech - Renovando Oportunidades", concebido como resultado de la pasantía otorgada por INKUA y las prácticas profesionales supervisadas de la Tecnicatura Universitaria en Programación de la UTN FRSR realizado por un equipo de 7 estudiantes altamente comprometidos con la realidad socio-ambiental. 
+
+## 📝Presentación en Google Slides 
+
+A continuación, se proporciona el enlace para acceder a la presentación de nuestro proyecto: 
+
+https://docs.google.com/presentation/d/15xgYWjrG9k8YOvDxFARGlnHt7RKDSYjf0uKp0l00yo4/edit#slide=id.g1e97dfab4ea_2_95
+
 ## ♻ "ReTech - Renovando Oportunidades" 
-Se focaliza en la realización de talleres de creación artística y la elaboración de productos a partir de residuos electrónicos. Este proyecto presenta un enfoque social y ambiental. Por un lado, busca empoderar a jóvenes de bajos recursos mediante la reutilización creativa de residuos electrónicos, brindándoles la oportunidad de adquirir habilidades valiosas. Por otro lado, se dedica a sensibilizar a la comunidad sobre la importancia de reducir la generación de desechos electrónicos y promover un consumo más sostenible.
+Se focaliza en la creación de un sitio web donde se presenta información que permite la realización de talleres de creación artística y la elaboración de productos a partir de residuos electrónicos. Este proyecto presenta un enfoque social y ambiental. Por un lado, busca empoderar a jóvenes de bajos recursos mediante la reutilización creativa de residuos electrónicos, brindándoles la oportunidad de adquirir habilidades valiosas. Por otro lado, se dedica a sensibilizar a la comunidad sobre la importancia de reducir la generación de desechos electrónicos y promover un consumo más sostenible.
 
 Las características clave del proyecto son las siguientes:
 
