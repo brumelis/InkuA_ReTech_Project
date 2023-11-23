@@ -5,7 +5,7 @@ Se focaliza en la realización de talleres de creación artística y la elaborac
 
 Las características clave del proyecto son las siguientes:
 
- 💻 Desarrollo de la web: Creación de  un sitio web atractivo y funcional que permita conectar actores sociales clave, otorgue visibilidad a los talleres de arte y creación y ofrezca información educativa sobre la basura electrónica y la informática.
+ 💻 Desarrollo de la Web: Creación de  un sitio web atractivo y funcional que permita conectar actores sociales clave, otorgue visibilidad a los talleres de arte y creación y ofrezca información educativa sobre la basura electrónica y la informática.
 
 🚮 Recopilación de Basura Electrónica: Se  recopilan dispositivos electrónicos en desuso de donaciones, como computadoras antiguas, impresoras, teléfonos móviles, etc. También se buscan colaboraciones con empresas locales para recolectar estos dispositivos.
 
@@ -21,7 +21,7 @@ Las características clave del proyecto son las siguientes:
 
 ###
 
-<p align="left">:recycle: Bru Melis,Eduardo<br>:recycle: Bru Melis, Miguel Angel<br>:recycle: Carmona, José<br>:recycle: Choquevillca, Tania<br>:recycle: Di Stefano, Diego Raul<br>:recycle: Montiel, Israel Leonardo<br>:recycle: Ortiz, Carlos Gustavo <br>:recycle: Palomo, José Facundo<br></p>
+<p align="left">:recycle: Bru Melis,Eduardo<br>:recycle: Bru Melis, Miguel Angel<br>:recycle: Carmona, José<br>:recycle: Di Stefano, Diego Raul<br>:recycle: Montiel, Israel Leonardo<br>:recycle: Ortiz, Carlos Gustavo <br>:recycle: Palomo, José Facundo<br></p>
 
 
 
