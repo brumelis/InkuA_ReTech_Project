@@ -746,3 +746,83 @@ footer{
         margin-bottom: 20px;
 
        }
+.registro-titulo h2 {
+        font-size: 18px;
+    }
+    
+
+/* Sección contacto */
+
+    .registro-form {
+        max-width: 400px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #F0F0F0;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .registro-form label {
+        display: block;
+        margin-top: 10px;
+        font-size: 14px; /* Tamaño de letra para las etiquetas */
+    }
+    
+    .registro-form input,
+    .registro-form select,
+    .registro-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+   
+    .btn {
+        background-color: #588157;
+        color: #F0F0F0;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    .btn:hover {
+        background-color: #076a48;
+    }
+  
+    
+    .formulario {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box; /* El padding no afecta el ancho total */
+        margin-bottom: 10px;
+    }
+    
+    .informacion-contacto {
+        flex: 1;
+        padding: 50px;
+        box-sizing: border-box; /* El padding no afecte el ancho total */
+        text-align: justify;
+    }
+    .list-unstyled{
+        font-size: 12px;
+    }
+   .lead{
+    font-size: 18px;
+}
+.list-unstyled{
+    font-size: 16px
+}
+
+.container-con {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container-con {
+    display: flex;
+}
