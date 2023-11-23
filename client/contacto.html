@@ -12,28 +12,84 @@
     <header id="header"></header>
     <script src="./components/navbar.js"></script>
     
-    <main>
-        <!-- BANNER -->
+    <main class="container-con">
         <section class="banner">
-                    <h2>CONTACTO</h2>
-                    <h2>Habla con nosotros</h2>
+            <h2>EN CONTACTO</h2>
+            <h3>Habla con nosotros</h3>
         </section>
-
-        <!-- PRODUCTOS -->
-            <div class="datos">
-                <div class="productos4">
-                    <img src="./assets/image1.jpeg" alt="foto1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium temporibus amet autem nesciunt eveniet laudantium eaque totam, nobis assumenda  </p> 
-                </div>
-
-                <div class="contactos">
-                    <a href="mailto:mindyphoto@mh.com" class="email">retech@retech.com</p> 
-                    <a href="tel:011 23312" class="phone">011 xxxxxxxx</p> 
-                </div>
+    
+        <div class="flex-container-con">
+            <!-- Columna izquierda con el formulario -->
+            
+                <form class="registro-form" action="{{url_for('app.register')}}" method="POST">
+                    <div class="formulario">
+                        <div class="registro-titulo">
+                            <h3>Formulario</h3>
+                        </div>
+            
+                    <!-- Campos de formulario -->
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" placeholder="Nombre" name="username" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Correo electrónico" name="email" required>
+    
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" name="password" required>
+    
+                    <label for="repetir-contrasena">Repetir Contraseña:</label>
+                    <input type="password" name="repeat_password" required>
+    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="phone" required>
+    
+                    <label for="motivo">Motivo:</label>
+                    <select class="form-control" id="motivo" name="motivo" required>
+                        <option value="" disabled selected>Selecciona un motivo</option>
+                        <option value="DonarMaterial">Estoy interesado/a en donar material a ReTech</option>
+                        <option value="Voluntario">Quiero participar como voluntario de los talleres</option>
+                        <option value="ConsultaGeneral">Consulta General</option>
+                        <option value="InformacionEvento">Solicitar información sobre un evento</option>
+                        <option value="Colaboracion">Propuesta de colaboración</option>
+                        <option value="SoporteTecnico">Soporte técnico</option>
+                        <option value="InscripcionCurso">Inscripción a un curso/taller</option>
+                        <option value="Patrocinio">Consultas sobre patrocinio</option>
+                        <option value="Feedback">Proporcionar feedback</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                  
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+    
+                <!-- Botón "Crear cuenta" debajo del formulario -->
+                <button type="submit">Crear cuenta</button>
             </div>
+    
+            <!-- Columna derecha con información de contacto -->
+            <div class="informacion-contacto">
+                <h3 class="titulo text-center mb-2">Información de Contacto</h3><br>
+                <p class="lead">En el formulario de la izquierda, te ofrecemos la 
+                    posibilidad de contactarnos para diferentes propósitos. <br><br>Puedes suscribirte a nuestra página web, participar en las variadas actividades que Retech ofrece en distintas modalidades, contribuir con donaciones 
+                    para financiar el desarrollo de nuestro proyecto, el cual abarca la creación de un sitio interactivo que
+                     conecta a la comunidad, informa sobre talleres y educa sobre la gestión de desechos electrónicos.<br><br>
+                     Ya sea para suscribirte, participar, donar o realizar consultas, estamos aquí para ayudarte. 
+                     No dudes en ponerte en contacto con nosotros; estamos disponibles para brindarte asistencia y responder a cualquier 
+                     inquietud que puedas tener..</p>
+                <ul class="list-unstyled"><br>
+                    <li><i class="fas fa-map-marker-alt"></i><b>Pasantías INKUA</b></li>
+                    <li><i class="fas fa-phone"></i> <b>Teléfono:</b> +11 123 456 789</li>
+                    <li><i class="fas fa-envelope"></i> <b>Correo Electrónico:</b> info@inkua.com</li>
+                </ul>
+            </div>
+        </div>
     </main>
-
-    <!-- FOOTER -->
+    
+     <!-- FOOTER -->
     <footer id="footer"></footer>
     <script src="./components/footer.js"></script>
 
