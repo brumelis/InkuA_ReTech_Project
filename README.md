@@ -29,13 +29,13 @@ https://docs.google.com/presentation/d/15xgYWjrG9k8YOvDxFARGlnHt7RKDSYjf0uKp0l00
 
 ##  👨‍🔬 Tecnologías utilizadas
 
-A continuación, se describen las tecnologías que hemos utilizado para la realización del proyecto con una breve descripción de su uso: 
+A continuación, se describen las tecnologías que se ha utilizado para la realización del proyecto con una breve descripción de su uso: 
 
-- HTML (Hypertext Markup Language): Utilizado para estructurar el contenido de nuestra página web.
+- HTML (Hypertext Markup Language): Se ha utilizado para estructurar el contenido de nuestra página web.
 
 - JavaScript: el lenguaje de programación se ha utilizado para lograr la página web sean interactiva y dinámica.
 
-- CSS (Cascading Style Sheets): Se ha utilizado para dar estilo y diseño a las páginas web HTML.
+- CSS (Cascading Style Sheets): Se ha utilizado para dar estilo y diseño a la página web HTML.
 
 - Bootstrap: Un framework de diseño que ha facilitado la creación de interfaces web responsivas y atractivas.
 
@@ -53,7 +53,7 @@ A continuación, se describen las tecnologías que hemos utilizado para la reali
 
 - ActionForms: Nos ha permitido crear formularios interactivos.
 
-- MercadoPago SDK: El kit de desarrollo de software de MercadoPago, que permite la integración de servicios de pago en aplicaciones y sitios web.
+- MercadoPago SDK: El kit de desarrollo de software de MercadoPago, ha permitido la integración de servicios de pago en el sitio web.
 
 ## 🖥 Ejecución del proyecto: 
 
