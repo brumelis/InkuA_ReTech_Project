@@ -55,7 +55,7 @@ A continuación, se describen las tecnologías que hemos utilizado para la reali
 
 - MercadoPago SDK: El kit de desarrollo de software de MercadoPago, que permite la integración de servicios de pago en aplicaciones y sitios web.
 
-    ## 🖥 Ejecución del proyecto: 
+## 🖥 Ejecución del proyecto: 
 
 En un entorno local realizar los siguientes pasos:
 
@@ -80,12 +80,6 @@ En un entorno local realizar los siguientes pasos:
    
    - Abre tu navegador web y accede a http://localhost:8080 para ver el proyecto.
      
-## 📝Presentación en Google Slides 
-
-A continuación, se proporciona el enlace para acceder a la presentación de nuestro proyecto: 
-
-https://docs.google.com/presentation/d/15xgYWjrG9k8YOvDxFARGlnHt7RKDSYjf0uKp0l00yo4/edit#slide=id.g1e97dfab4ea_2_95
-
 <h3 align="left">Integrantes:</h3>
 
 ###
