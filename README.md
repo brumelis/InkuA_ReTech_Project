@@ -64,13 +64,13 @@ A continuación, se describen las tecnologías que se ha utilizado para la reali
 
 ## 🖥 Ejecución del proyecto: 
 
-En un entorno local realizar los siguientes pasos:
+Para poder visualizar el proyecto, en un entorno local realizar los siguientes pasos:
 
 1. Clonar el repositorio utilizando git o descargando el archivo ZIP:
    
    https://github.com/brumelis/InkuA_ReTech_Project.git
    
-2.  Ubicarse en la Carpeta del Servidor:
+2.  Ubicarse en la Carpeta del Servidor (server):
    
     - Haz clic con el botón derecho 
     - Selecciona "Open in Integrated Terminal" para abrir la terminal integrada.
