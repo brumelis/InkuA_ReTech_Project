@@ -27,7 +27,35 @@ A continuación, se proporciona el enlace para acceder a la presentación de nue
 
 https://docs.google.com/presentation/d/15xgYWjrG9k8YOvDxFARGlnHt7RKDSYjf0uKp0l00yo4/edit#slide=id.g1e97dfab4ea_2_95
 
-## 🖥 Ejecución del proyecto: 
+##  👨‍🔬 Tecnologías utilizadas
+
+A continuación, se describen las tecnologías que hemos utilizado para la realización del proyecto con una breve descripción de su uso: 
+
+- HTML (Hypertext Markup Language): Utilizado para estructurar el contenido de nuestra página web.
+
+- JavaScript: el lenguaje de programación se ha utilizado para lograr la página web sean interactiva y dinámica.
+
+- CSS (Cascading Style Sheets): Se ha utilizado para dar estilo y diseño a las páginas web HTML.
+
+- Bootstrap: Un framework de diseño que ha facilitado la creación de interfaces web responsivas y atractivas.
+
+- Node.js: Un entorno de ejecución para JavaScript del lado del servidor, permitiendo la creación de aplicaciones web escalables.
+
+- Redis: Una base de datos en memoria utilizada para almacenar y recuperar datos rápidamente.
+
+- Git: Un sistema de control de versiones que ha permitido el seguimiento de cambios en el código fuente durante el desarrollo.
+
+- GitHub: Una plataforma de alojamiento y colaboración para proyectos de desarrollo de software basados en Git.
+
+- Render: Utilizamos Render para implementar nuestras aplicaciones de manera rápida y sencilla, garantizando un rendimiento confiable
+
+- Figma: Una herramienta de diseño colaborativo basada en la nube.
+
+- ActionForms: Nos ha permitido crear formularios interactivos.
+
+- MercadoPago SDK: El kit de desarrollo de software de MercadoPago, que permite la integración de servicios de pago en aplicaciones y sitios web.
+
+    ## 🖥 Ejecución del proyecto: 
 
 En un entorno local realizar los siguientes pasos:
 
@@ -51,7 +79,7 @@ En un entorno local realizar los siguientes pasos:
 8. Visualizar el Proyecto:
    
    - Abre tu navegador web y accede a http://localhost:8080 para ver el proyecto.
-    
+     
 ## 📝Presentación en Google Slides 
 
 A continuación, se proporciona el enlace para acceder a la presentación de nuestro proyecto: 
