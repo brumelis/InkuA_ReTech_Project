@@ -27,7 +27,14 @@ A continuación, se proporciona el enlace para acceder a la presentación de nue
 
 https://docs.google.com/presentation/d/15xgYWjrG9k8YOvDxFARGlnHt7RKDSYjf0uKp0l00yo4/edit#slide=id.g1e97dfab4ea_2_95
 
-##  👨‍🔬 Tecnologías utilizadas
+## 🚀Nuestro proyecto en youtube
+
+A continuación, se facilita el enlace para acceder a la presentación completa de nuestro proyecto:
+
+https://www.youtube.com/watch?v=Qdt16oZhYh0
+
+
+## ⚙️Tecnologías utilizadas
 
 A continuación, se describen las tecnologías que se ha utilizado para la realización del proyecto con una breve descripción de su uso: 
 
