@@ -1,6 +1,6 @@
 <h1 align="center"> InkuA_ReTech_Project </h1>
 
-## 💻 Introducción
+## ✨ Introducción
 
 En este repositorio, se presenta el proyecto "ReTech - Renovando Oportunidades", concebido como resultado de la pasantía otorgada por INKUA y las prácticas profesionales supervisadas de la Tecnicatura Universitaria en Programación de la UTN FRSR realizado por un equipo de 7 estudiantes altamente comprometidos con la realidad socio-ambiental. 
 
@@ -21,6 +21,37 @@ Las características clave del proyecto son las siguientes:
 
 🛒Venta de Productos: Se podrán vender las creaciones de los jóvenes en mercados de arte o en línea, y los ingresos generados podrían reinvertirse en el proyecto para financiar más talleres y programas de educación en tecnología.
 
+## 📝Presentación en Google Slides 
+
+A continuación, se proporciona el enlace para acceder a la presentación de nuestro proyecto: 
+
+https://docs.google.com/presentation/d/15xgYWjrG9k8YOvDxFARGlnHt7RKDSYjf0uKp0l00yo4/edit#slide=id.g1e97dfab4ea_2_95
+
+## 🖥 Ejecución del proyecto: 
+
+En un entorno local realizar los siguientes pasos:
+
+1. Clonar el repositorio utilizando git o descargando el archivo ZIP:
+   
+   https://github.com/brumelis/InkuA_ReTech_Project.git
+   
+2.  Ubicarse en la Carpeta del Servidor:
+   
+    - Haz clic con el botón derecho 
+    - Selecciona "Open in Integrated Terminal" para abrir la terminal integrada.
+      
+3. Instalar Dependencias con npm:
+     
+     - En la terminal, ejecuta el siguiente comando para instalar las dependencias del servidor: npm install
+   
+5. Iniciar el Servidor:
+   
+    - Después de la instalación, ejecuta el siguiente comando para iniciar el servidor: npm start
+     
+8. Visualizar el Proyecto:
+   
+   - Abre tu navegador web y accede a http://localhost:8080 para ver el proyecto.
+    
 ## 📝Presentación en Google Slides 
 
 A continuación, se proporciona el enlace para acceder a la presentación de nuestro proyecto: 
