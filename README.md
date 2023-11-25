@@ -64,7 +64,7 @@ A continuación, se describen las tecnologías que se ha utilizado para la reali
 
 ## 🖥 Ejecución del proyecto: 
 
-Para poder visualizar el proyecto, en un entorno local realizar los siguientes pasos:
+Para visualizar el proyecto en un entorno local, sigue estos pasos:
 
 1. Clonar el repositorio utilizando git o descargando el archivo ZIP:
    
