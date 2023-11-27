@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=Qdt16oZhYh0
 
 ## ⚙️Tecnologías utilizadas
 
-A continuación, se describen las tecnologías que se ha utilizado para la realización del proyecto con una breve descripción de su uso: 
+A continuación, se describen las tecnologías que se han utilizado para la realización del proyecto con una breve descripción de su uso: 
 
 - HTML (Hypertext Markup Language): Se ha utilizado para estructurar el contenido de nuestra página web.
 
