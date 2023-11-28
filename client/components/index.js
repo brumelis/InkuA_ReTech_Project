@@ -1,17 +1,9 @@
 const amountInput = document.getElementById("amount-input");
 const totalAmount = document.getElementById("total-amount");
 
-let donationCount = 0;
-
 amountInput.addEventListener("input", () => {
-  donationCount = amountInput.value;
-  updateTotalAmount();
+  totalAmount.innerText = amountInput.value;
 });
-
-const updateTotalAmount = () => {
-  const updatedAmount = donationCount * 1;
-  totalAmount.innerText = updatedAmount;
-};
 
 
 const mercadopago = new MercadoPago("TEST-201e9abd-3bb7-46a6-a36b-65d2a5689677", {
