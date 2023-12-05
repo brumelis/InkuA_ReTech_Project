@@ -821,6 +821,7 @@ footer{
 .container-con {
     max-width: 960px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .flex-container-con {
